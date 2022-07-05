@@ -17,7 +17,6 @@ logging_file = os.path.join(config_folder,"logging.conf")
 
 os.environ["APP_CONFIG_FILE"] = config_file
 
-base_url=get_config().get("server","base_url")
 port=get_config().get("server","port")
 app = Flask(__name__)
  

@@ -1,7 +1,7 @@
 # Flask-API-template
 To test the API run
 
-python3 src/main/script/app.py
+python3 src/main/scripts/app.py
 
 Api will be hosted in the port mentioned in the config file present in src/main/resources/app.cfg
 
